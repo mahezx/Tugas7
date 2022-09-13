@@ -67,3 +67,52 @@ h1{
 h5{
     line-height: 25px;
 }
+
+main{
+    height: fit-content;
+    margin-top: 25px;
+}
+
+.sr h4{
+    margin: 15px auto;
+    border-bottom: #6e49ea 3px solid;
+    max-width: 214px;
+    text-align: center;
+}
+
+h4{
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.row{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.row img{
+    border: #303330 3px solid;
+    width: 47%;
+    margin: 0 5px;
+}
+
+.jumbo{
+    margin: 5px 0;
+    float: right;
+    width: 54.5%;
+}
+
+.jumbo img{
+    border: #303330 3px solid;
+    width: 100%;
+}
+
+.in{
+    display: inline-block;
+    width: 45%;
+}
+
+.slide{
+    padding: 0 4%;
+}
+
