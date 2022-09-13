@@ -1,3 +1,7 @@
+:root{
+    --warna-text:#f6f6f6
+}
+
 @font-face{
     font-family: quicksand;
     src: url(assets/quicksand-v30-latin-regular.woff);
@@ -20,4 +24,46 @@ nav{
     position: sticky;
     top: 0;
     text-align: center;
+}
+
+.bar{
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.center{
+    margin-left: -150px;
+}
+
+a{
+    color: #f6f6f6;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover{
+    background-color: #6e49ea;
+}
+
+.hero{
+    text-align: center;
+    width: 45%;
+    margin: 30px auto;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+h5{
+    line-height: 25px;
 }
